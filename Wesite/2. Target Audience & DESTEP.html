@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="2. Target Audience & DESTEP — Exported from UXMagic Copilot">
+    <title>2. Target Audience & DESTEP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Poppins:wght@100..900&amp;family=Fira+Code:wght@300..700&amp;family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+    <style type="text/tailwindcss">
+      @import "tailwindcss";
+      @theme inline {
+        --color-background: var(--background);
+        --color-foreground: var(--foreground);
+        --color-primary: var(--primary);
+        --color-primary-foreground: var(--primary-foreground);
+        --color-secondary: var(--secondary);
+        --color-secondary-foreground: var(--secondary-foreground);
+        --color-tertiary: var(--tertiary);
+        --color-muted: var(--muted);
+        --color-muted-foreground: var(--muted-foreground);
+        --color-accent: var(--accent);
+        --color-destructive: var(--destructive);
+        --color-card: var(--card);
+        --color-card-foreground: var(--card-foreground);
+        --color-border: var(--border);
+        --color-input: var(--input);
+        --color-ring: var(--ring);
+        --radius-sm: calc(var(--radius) - 4px);
+        --radius-md: calc(var(--radius) - 2px);
+        --radius-lg: var(--radius);
+        --font-family-sans: var(--font-sans);
+        --font-family-heading: var(--font-heading);
+      }
+      :root {
+        --ring: #E95D44;
+        --muted-foreground: #6B7280;
+        --secondary-foreground: #1A1A1A;
+        --primary: #E95D44;
+        --secondary: #FAD4C0;
+        --foreground: #1A1A1A;
+        --muted: #F7E1D7;
+        --background: #FFF0EB;
+        --card: #FFFFFF;
+        --primary-foreground: #FFFFFF;
+        --tertiary: #2D3E50;
+        --input: #FAD4C0;
+        --border: #FAD4C0;
+        --radius: 1rem;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div data-page="2-target-audience-destep">
+
+<div class="min-h-screen w-full bg-background flex flex-col relative font-sans text-foreground overflow-x-hidden">
+  <!-- Branding Header -->
+  <header class="p-6 md:p-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 relative z-10">
+    <div class="flex items-center gap-4">
+      <div class="w-14 h-14 bg-tertiary rounded-2xl flex items-center justify-center text-white -rotate-3 shadow-xl shadow-tertiary/30">
+        <iconify-icon icon="lucide:users-2" class="text-3xl text-primary"></iconify-icon>
+      </div>
+      <div>
+        <h1 class="text-2xl md:text-3xl font-heading font-black text-tertiary tracking-tighter uppercase">SafeCity PlayLab</h1>
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-primary"></span>
+          <p class="text-xs font-bold text-muted-foreground uppercase tracking-widest">Europe • Brand Guide v2.0</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center gap-4">
+      <div class="flex -space-x-3">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-10 h-10 rounded-full border-2 border-white shadow-sm" alt="U">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="w-10 h-10 rounded-full border-2 border-white shadow-sm" alt="U">
+        <img src="https://randomuser.me/api/portraits/men/12.jpg" class="w-10 h-10 rounded-full border-2 border-white shadow-sm" alt="U">
+        <div class="w-10 h-10 rounded-full border-2 border-white bg-primary flex items-center justify-center text-[10px] font-black text-white shadow-sm">+5k</div>
+      </div>
+      <p class="text-[10px] font-black text-tertiary uppercase tracking-widest">Active Youth Participants</p>
+    </div>
+  </header>
+
+  <main class="flex-1 max-w-7xl mx-auto w-full p-6 md:p-10 space-y-24">
+    <!-- Section Title: High Impact -->
+    <section class="space-y-6 max-w-4xl">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/10 text-primary rounded-full text-xs font-black uppercase tracking-widest">
+        The People
+      </div>
+      <h2 class="text-5xl md:text-7xl font-heading font-black text-tertiary leading-[0.9] tracking-tighter">
+        DESIGNING FOR THE <br><span class="text-primary">UNHEARD GENERATION</span>.
+      </h2>
+      <p class="text-xl md:text-2xl text-muted-foreground font-medium leading-relaxed">
+        Our primary focus is the <span class="text-tertiary font-bold">10-19 age group</span>—digital natives who navigate cities daily but are rarely invited to help build them.
+      </p>
+    </section>
+
+    <!-- Visual Infographic: The Core Audience -->
+    <section class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+      <!-- Left: Demographic Breakdown -->
+      <div class="lg:col-span-4 space-y-8">
+        <div class="bg-card p-10 rounded-[3rem] border border-border shadow-xl relative overflow-hidden group">
+          <div class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-bl-[5rem] -mr-8 -mt-8"></div>
+          <h3 class="text-2xl font-black text-tertiary mb-8">Audience Profile</h3>
+          
+          <div class="space-y-8">
+            <div class="space-y-3">
+              <div class="flex justify-between items-end">
+                <p class="text-[10px] font-black uppercase text-muted-foreground tracking-widest">Primary Age Range</p>
+                <p class="text-2xl font-black text-primary">10-19</p>
+              </div>
+              <div class="h-4 bg-muted rounded-full overflow-hidden flex">
+                <div class="h-full bg-primary/20 w-1/4"></div>
+                <div class="h-full bg-primary w-2/4 border-x border-white"></div>
+                <div class="h-full bg-primary/40 w-1/4"></div>
+              </div>
+              <p class="text-[10px] text-muted-foreground font-bold italic text-center">Secondary Education • Digital Natives</p>
+            </div>
+
+            <div class="space-y-4">
+              <p class="text-[10px] font-black uppercase text-muted-foreground tracking-widest">Key Interests</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-4 py-2 bg-tertiary text-white rounded-xl text-xs font-bold">Gaming</span>
+                <span class="px-4 py-2 bg-tertiary text-white rounded-xl text-xs font-bold">Social Equality</span>
+                <span class="px-4 py-2 bg-primary text-white rounded-xl text-xs font-bold">Urban Exploration</span>
+                <span class="px-4 py-2 bg-tertiary text-white rounded-xl text-xs font-bold">TikTok/Short-form</span>
+              </div>
+            </div>
+
+            <div class="p-6 bg-primary/5 rounded-2xl border-l-4 border-primary">
+              <p class="text-xs font-bold text-tertiary uppercase mb-2">How they talk:</p>
+              <p class="text-sm font-medium italic text-muted-foreground leading-relaxed">
+                "Direct, visual-first, meme-fluent. They value authenticity over institutional polish."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Engagement Visuals -->
+      <div class="lg:col-span-8 space-y-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Stakeholder: Teachers & Schools -->
+          <div class="bg-tertiary p-8 rounded-[3rem] text-white shadow-xl flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="w-12 h-12 bg-white/10 rounded-2xl flex items-center justify-center">
+                <iconify-icon icon="lucide:graduation-cap" class="text-2xl text-primary"></iconify-icon>
+              </div>
+              <h4 class="text-2xl font-bold">Schools &amp; Teachers</h4>
+              <p class="text-sm text-white/70 leading-relaxed">
+                Our gatekeepers to youth. We provide them with innovative civic education tools that meet Erasmus+ Key Action 2 objectives.
+              </p>
+            </div>
+            <div class="mt-8 pt-6 border-t border-white/10 flex items-center justify-between">
+              <span class="text-[10px] font-black uppercase text-primary tracking-widest">Civic Learning</span>
+              <div class="flex -space-x-2">
+                <div class="w-6 h-6 rounded-full bg-primary border border-tertiary"></div>
+                <div class="w-6 h-6 rounded-full bg-white/20 border border-tertiary"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stakeholder: Municipalities -->
+          <div class="bg-white p-8 rounded-[3rem] border border-border shadow-sm flex flex-col justify-between group hover:border-primary transition-colors">
+            <div class="space-y-4">
+              <div class="w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center">
+                <iconify-icon icon="lucicon:building-2" class="text-2xl text-primary"></iconify-icon>
+              </div>
+              <h4 class="text-2xl font-bold text-tertiary">Municipalities &amp; EU</h4>
+              <p class="text-sm text-muted-foreground leading-relaxed">
+                The decision-makers. They need our structured, youth-generated data to justify planning budgets and gender-sensitive policies.
+              </p>
+            </div>
+            <div class="mt-8 pt-6 border-t border-border flex items-center justify-between">
+              <span class="text-[10px] font-black uppercase text-tertiary tracking-widest">Policy Data</span>
+              <iconify-icon icon="lucide:bar-chart-3" class="text-primary"></iconify-icon>
+            </div>
+          </div>
+        </div>
+
+        <!-- The "Safety Perception" Infographic -->
+        <div class="bg-card p-10 rounded-[3rem] border border-border shadow-xl relative overflow-hidden">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-10">
+            <div class="space-y-2">
+              <h3 class="text-2xl font-black text-tertiary tracking-tighter">THE ACTION GAP</h3>
+              <p class="text-sm text-muted-foreground">Visualizing youth safety perception vs. traditional planning data.</p>
+            </div>
+            <div class="flex gap-4">
+              <div class="flex items-center gap-2">
+                <div class="w-3 h-3 rounded-full bg-primary"></div>
+                <span class="text-[10px] font-bold uppercase text-muted-foreground">SafeCity Data</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-3 h-3 rounded-full bg-tertiary/20"></div>
+                <span class="text-[10px] font-bold uppercase text-muted-foreground">Old Models</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="h-64 overflow-hidden relative">
+            <canvas id="engagementChart" height="250"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlight Callout -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div class="p-12 bg-primary text-white rounded-[4rem] shadow-2xl shadow-primary/30 rotate-1">
+        <h4 class="text-3xl font-black mb-6">WHY 10-19?</h4>
+        <p class="text-lg leading-relaxed font-medium opacity-90">
+          Adolescence is a key period for civic learning. Yet, formal urban planning rarely captures youth perspectives. SafeCity responds by turning students from <span class="bg-white text-primary px-2 py-0.5 rounded-md">passive users</span> into <span class="underline decoration-4 decoration-tertiary">active contributors</span>.
+        </p>
+      </div>
+      <div class="space-y-6">
+        <h3 class="text-4xl font-heading font-black text-tertiary tracking-tighter">SOCIO-ECONOMIC REALITY</h3>
+        <p class="text-muted-foreground leading-relaxed">
+          While financially dependent, this group has high social influence and high mobility needs. Their perceived insecurity influences mobility choices—avoiding routes or limiting travel at night.
+        </p>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="p-6 bg-card border border-border rounded-3xl text-center">
+            <p class="text-3xl font-black text-primary">74%</p>
+            <p class="text-[10px] font-bold uppercase text-muted-foreground">Avoid night travel</p>
+          </div>
+          <div class="p-6 bg-card border border-border rounded-3xl text-center">
+            <p class="text-3xl font-black text-tertiary">2%</p>
+            <p class="text-[10px] font-bold uppercase text-muted-foreground">Represented in Planning</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    setTimeout(() => {
+      const ctx = document.getElementById('engagementChart').getContext('2d');
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['Lighting', 'Mobility', 'Access', 'Security', 'Inclusion'],
+          datasets: [
+            {
+              label: 'SafeCity Engagement',
+              data: [95, 88, 72, 98, 85],
+              borderColor: '#E95D44',
+              backgroundColor: 'rgba(233, 93, 68, 0.2)',
+              fill: true,
+              tension: 0.4,
+              borderWidth: 4,
+              pointBackgroundColor: '#E95D44',
+              pointRadius: 6
+            },
+            {
+              label: 'Traditional Surveys',
+              data: [30, 45, 25, 40, 15],
+              borderColor: 'rgba(15, 23, 42, 0.1)',
+              borderDash: [10, 5],
+              fill: false,
+              tension: 0.4,
+              borderWidth: 2,
+              pointRadius: 0
+            }
+          ]
+        },
+        options: {
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            y: { display: false, min: 0, max: 110 },
+            x: { 
+              grid: { display: false }, 
+              ticks: { color: '#0F172A', font: { weight: 'bold', size: 10 } } 
+            }
+          }
+        }
+      });
+    }, 100);
+  </script>
+
+  <!-- Navigation / Pagination -->
+  <footer class="p-10 bg-tertiary text-white mt-20">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
+      <div class="flex items-center gap-6">
+        <div class="text-center">
+          <p class="text-4xl font-black text-primary">02</p>
+          <p class="text-[10px] uppercase font-black tracking-widest text-primary">Audience</p>
+        </div>
+        <div class="w-px h-12 bg-white/10"></div>
+        <div class="space-y-1">
+          <p class="font-bold text-lg">SafeCity PlayLab Europe</p>
+          <p class="text-xs text-white/50">Next: Buyer Persona &amp; Stakeholder Mapping</p>
+        </div>
+      </div>
+      <div class="flex gap-4">
+        <div class="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white hover:bg-white/5 cursor-pointer">
+          <iconify-icon icon="lucide:chevron-left"></iconify-icon>
+        </div>
+        <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white shadow-lg shadow-primary/20 hover:scale-110 transition-transform cursor-pointer">
+          <iconify-icon icon="lucide:chevron-right" class="text-xl"></iconify-icon>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
